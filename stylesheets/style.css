@@ -1,6 +1,12 @@
 /*------- MAIN STYLES ------- */
   /*------- 1. GLOBAL ------- */
-  /*------- 2. MARKETING ------- */
+  /*------- 2. HEADER ------- */
+  /*------- 3. BENEFITS ------- */
+  /*------- 4. MID-CONTENT ------- */
+  /*------- 5. TESTIMONIALS ------- */
+  /*------- 6. BOTTOM CTA ------- */
+  /*------- 7. FOOTER ------- */
+  /*------- 8. RESPONSIVE ------- */
 
 
 /*------- 1. GLOBAL ------- */
@@ -13,25 +19,87 @@ body, p {
     font-weight:400;
 }
 
+
+.cta  form input {
+    display: inline;
+    width:400px;
+    border-radius: 4px;
+    border:none;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size:55px; 
+    font-weight:600;
+}
+
+h2 {
+    font-size:38px; 
+    font-weight:300;
+    color:#fff;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color:#003366;
+    font-size:30px; 
+    font-weight:600;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color:#003366;
+    font-size:30px; 
+    font-weight:600;
+}
+
+h5 {
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    color:#333;
+    font-size:18px; 
+    font-weight:400;
+    font-style: italic; 
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+/*------- 2. HEADER ------- */
+
 header {
     margin-top: 10px;
 }
+
 header h1 {
     margin:0;
     float: left;
 }
+
 header nav {
     display:inline; 
 }
+
 header nav ul {
     float: right;
     list-style-type: none;
     margin-top: 30px;
 }
+
 header nav ul li {
     display: inline;
     padding:0px 20px;
 }
+
 header nav ul li a {
     color:#fff;
     text-decoration: none;
@@ -44,6 +112,7 @@ header nav ul li a {
     -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
 }
+
 header nav ul li a:hover {
     color:#fc0;
 }
@@ -52,102 +121,61 @@ a, a:visited {
     color:#fff;
 }
 
-#header {
+.header {
     background:#39c url('../images/jottly-header-image.png') center center;
     background-size: cover; 
     -moz-background-size:cover;
     margin:0;
     min-height: 500px;
-    /*max-width: 100%;
-    height: auto !important;*/
 }
 
-/*------- 2. MARKETING ------- */
-
-#marketing {
+.marketing {
     text-align: left;
     margin-top: 50px;
 }
 
-#marketing h1 {
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    color:#fff;
-    font-size:55px; 
-    font-weight:600;
-}
-
-#marketing h2 {
-    font-size:38px; 
-    font-weight:300;
-    color:#fff;
-    font-style: italic;
-    margin-bottom: 40px;
-}
-
- 
-
-
-/*------- TOP CTA ------- */
-
-#top-cta {
+.top-cta {
     background: rgba(3, 42, 81, 0.5) ;
     background-size: cover; 
     -moz-background-size:cover; 
     margin-bottom:-12px;
-    padding: 40px 0px 15px 80px;
-
+    padding: 40px 0 15px 80px;
 }
 
-#benefits {
+/*------- 3. BENEFITS ------- */
+
+.benefits {
     text-align: center;
     padding:60px 0;
-	margin-top:30px;
-}
-#benefits h3 {
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    color:#003366;
-    font-size:30px; 
-    font-weight:600;
+    margin-top:30px;
 }
 
-#mid-content img {
+ /*------- 4. MID-CONTENT ------- */
+
+.mid-content img {
     margin-bottom: -6px;
 }
-#mid-content h4 {
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    color:#003366;
-    font-size:30px; 
-    font-weight:600;
-    margin-top:0px;
-}
-#mid-content {
+
+.mid-content {
     padding: 20px 0;
     margin-bottom: 130px;
-	margin-top: 60px;
-
+    margin-top: 60px;
 }
 
-#testimonials {
+  /*------- 5. TESTIMONIALS ------- */
+
+.testimonials {
     background-color:#cbebfa; 
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0;
 }
 
-#testimonials h5 {
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    color:#333;
-    font-size:18px; 
-    font-weight:400;
-    font-style: italic; 
-    margin-top: 40px;
-    margin-bottom: 25px;
+.testimonials img {
+    margin-top:40px;   
 }
 
-#testimonials img {
-    margin-top:40px;
-    
-}
+  /*------- 6. BOTTOM CTA ------- */
 
-#bottom-cta {
+.bottom-cta {
     background: url('../images/bottom-cta-bg.jpg') center center;
     background-size: cover; 
     -moz-background-size:cover; 
@@ -155,30 +183,12 @@ a, a:visited {
     min-height: 80px; 
     padding:60px 0 20px;
 }
-#bottom-cta  h6 {
-    font-size: 40px;
-    font-weight: 900;
-    color:#fff;
-    margin-bottom: 20px;
-}
-#bottom-cta  h6 {
-    font-size: 18px;
-    font-weight: 400;
-    color:#fff;
-    margin-bottom: 20px;
-}
-#bottom-cta  form {
+
+.bottom-cta  form {
     margin:0 0 15px 0;
-    padding:0;
 }
-#bottom-cta  form input {
-    display: inline;
-    width:400px;
-    border-radius: 4px;
-    border:none;
-    padding: 12px;
-}
-#bottom-cta  form button {
+
+.bottom-cta  form button {
     background: #ec9e08!important;
     color:#fff;
     text-shadow:none;
@@ -189,23 +199,30 @@ a, a:visited {
     padding:8px 15px 11px;
 }
 
+  /*------- 7. FOOTER ------- */
+
 .footer {
     background-color:#036;
     color:#fff;
-    padding-top: 20px;
+    padding-top:20px;
 }
+
 .footer nav {
    display:inline;
 }
+
 .footer nav ul {
     float: right;
     list-style-type: none;
-  
+    display: block;
+    margin-top: 20px;
 }
+
 .footer nav ul li {
     display: inline;
-    padding:0px 20px;
+    padding:0 20px;
 }
+
 .footer nav ul li a {
     color:#fff;
     text-decoration: none;
@@ -218,6 +235,7 @@ a, a:visited {
     -o-transition: all .3s ease-in;
     transition: all .3s ease-in;
 }
+
 .footer nav ul li a:hover {
     color:#fc0;
 }
@@ -226,22 +244,54 @@ a, a:visited {
     text-align: right;
 }
 
+/*------- 8. RESPONSIVE ------- */
+
  @media only screen and (max-width: 479px) {
 
-    #marketing h1 {
-      font-size:38px; 
-      text-align:center;
-    }
 
-    #top-cta {
-    padding: 20px 0px;
 
+h1 {
+    font-size:50px; 
+    text-align:center;
 }
-input[type=text],
-input[type=email], {
-margin-top: 10px;
-    margin-bottom: 20px;
 
+h2 {
+    font-size:32px; 
+    text-align: center;
+}
+
+h4, p, h5   {
+    text-align: center;
+}
+
+.top-cta {
+    padding: 20px 0;
+}
+
+.testimonials img {
+    margin-top:20px; 
+    display: block;
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
+.logo img {
+    margin-top:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email] {
+    margin-bottom: 20px !important;
 }
 
 }
