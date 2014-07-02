@@ -19,7 +19,6 @@ body, p {
     font-weight:400;
 }
 
-
 .cta  form input {
     display: inline;
     width:400px;
@@ -249,7 +248,6 @@ a, a:visited {
  @media only screen and (max-width: 479px) {
 
 
-
 h1 {
     font-size:50px; 
     text-align:center;
@@ -264,6 +262,30 @@ h4, p, h5   {
     text-align: center;
 }
 
+header nav ul {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size:15px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
 .top-cta {
     padding: 20px 0;
 }
@@ -271,15 +293,17 @@ h4, p, h5   {
 .testimonials img {
     margin-top:20px; 
     display: block;
-    margin-left: auto;  
-    margin-right: auto;  
+    text-align: center;
 }
 
 .logo img {
     margin-top:20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
+    text-align: center;
+}
+
+.logo {
+    margin-top:0;
+    text-align: center;
 }
 
 .right img {
